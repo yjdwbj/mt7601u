@@ -29,7 +29,7 @@ EXPORT_SYMBOL(RTDebugFunc);
 /* utility */
 EXPORT_SYMBOL(RtmpUtilInit);
 EXPORT_SYMBOL(RTMPFreeNdisPacket);
-EXPORT_SYMBOL(AdapterBlockAllocateMemory);
+//EXPORT_SYMBOL(AdapterBlockAllocateMemory);
 
 EXPORT_SYMBOL(RTMP_SetPeriodicTimer);
 EXPORT_SYMBOL(RTMP_OS_Add_Timer);
@@ -45,11 +45,11 @@ EXPORT_SYMBOL(os_alloc_mem);
 EXPORT_SYMBOL(os_alloc_mem_suspend);
 EXPORT_SYMBOL(os_free_mem);
 
-EXPORT_SYMBOL(ExpandPacket);
-EXPORT_SYMBOL(ClonePacket);
-EXPORT_SYMBOL(RTMP_AllocateFragPacketBuffer);
+//EXPORT_SYMBOL(ExpandPacket);
+//EXPORT_SYMBOL(ClonePacket);
+//EXPORT_SYMBOL(RTMP_AllocateFragPacketBuffer);
 EXPORT_SYMBOL(Sniff2BytesFromNdisBuffer);
-EXPORT_SYMBOL(RtmpOSNetPktAlloc);
+//EXPORT_SYMBOL(RtmpOSNetPktAlloc);
 EXPORT_SYMBOL(duplicate_pkt_with_TKIP_MIC);
 EXPORT_SYMBOL(RTMPAllocateNdisPacket);
 EXPORT_SYMBOL(RTMP_QueryPacketInfo);
